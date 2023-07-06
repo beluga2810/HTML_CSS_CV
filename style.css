@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.section
+{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    
+}
+.wrapper{
+    width: 90%;
+    height: 100%;
+}
+
+
+
+
+
+
+.header
+{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: rgb(141, 61, 61);
+    border-radius: 15px;
+}
+.text_wrapper{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text_wrapper h1{
+    width: 100%;
+    height: 80px;
+    font-size: 72px;
+    color: white;
+    letter-spacing: 3px;
+}
+.text_wrapper h2{
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    color: rgb(230, 230, 230);
+    letter-spacing: 2px;
+}
+.picture-absolute
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 350px;
+    width: 350px;
+    background: url(/img/cat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    border-radius: 50%;
+    border: 1px solid rgb(31, 31, 31);
+}
+
+
+
+
+
+
+
+.content
+{
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+.skills
+{
+    margin-top: 200px;
+    width: 50%;
+    height: 100%;
+}
+.contacts{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.contacts h2{
+    margin-bottom: 30px;
+    width: fit-content;
+    height: 60px;
+    color: rgb(141, 61, 61);
+    font-size: 32px;
+    border-bottom: 2px solid rgb(141, 61, 61);
+}
+.contacts ul{
+    width: 65%;
+    border-radius: 10px;
+    border: 1px solid rgb(235, 235, 235);
+    overflow: hidden;
+}
+.contacts li{
+    width: 100%;
+    height: 50px;
+}
+.contacts a{
+    padding-left: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(31, 31, 31);
+}
+.contacts a:hover{
+    background-color: rgb(240, 240, 240);
+}
+.contacts svg{
+    margin-right: 15px;
+}
+.contacts p{
+    font-size: 16px;
+}
+
+
+
+.skill
+{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.skill h2
+{
+    margin-bottom: 30px;
+    width: fit-content;
+    height: 60px;
+    color: rgb(141, 61, 61);
+    font-size: 32px;
+    border-bottom: 2px solid rgb(141, 61, 61);
+}
+
+.skill ul
+{
+    width: 100%;
+    
+}
+.skill li
+{
+    width: 100%;
+    height: 40px;
+}
+.skill a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(31, 31, 31);
+}
+.skill a::before
+{
+    content: "";
+    margin-right: 15px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+.education
+{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.education h2
+{
+    margin-bottom: 30px;
+    width: fit-content;
+    height: 60px;
+    color: rgb(141, 61, 61);
+    font-size: 32px;
+    border-bottom: 2px solid rgb(141, 61, 61);
+}
+
+.education ul
+{
+    width: 100%;
+    
+}
+.education li
+{
+    width: 100%;
+    height: 100px;
+}
+.education a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(31, 31, 31);
+}
+.dot
+{
+    margin-right: 15px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(29, 29, 29);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.information
+{
+    margin-top: 80px;
+    width: 50%;
+    height: 100%;
+}
+
+
+.about-me
+{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.about-me h2
+{
+    margin-bottom: 30px;
+    width: fit-content;
+    height: 60px;
+    color: rgb(141, 61, 61);
+    font-size: 32px;
+    border-bottom: 2px solid rgb(141, 61, 61);
+}
+.about-me p
+{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.experience
+{
+    width: 100%;
+}
+.experience h2
+{
+    margin-bottom: 30px;
+    width: fit-content;
+    height: 60px;
+    color: rgb(141, 61, 61);
+    font-size: 32px;
+    border-bottom: 2px solid rgb(141, 61, 61);
+}
+.exp-col
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.exp-col:last-child
+{
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+.exp-name
+{
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+}
+.exp-key
+{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+}
+.exp-col ul
+{
+    width: 100%;
+}
+.exp-col li
+{
+    width: 100%;
+    height: 50px;
+}
+.exp-col a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(31, 31, 31);
+    
+}
+.exp-col a::before
+{
+    content: "";
+    margin-right: 15px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(29, 29, 29);
+}
+
+.footer
+{
+    margin-bottom: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(141, 61, 61);
+    display: flex;  
+    justify-content: center;
+    border-radius: 15px;
+}
+.footer-wrap{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.footer p 
+{
+    width: 300px;
+    height: 50px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(230, 230, 230);
+    font-size: 18px;
+}
+.footer p a
+{
+    color: rgb(230, 230, 230);
+    font-size: 18px
+}
