@@ -74,7 +74,7 @@ body{
     left: 10%;
     height: 350px;
     width: 350px;
-    background: url(/img/cat.png);
+    background: url(./img/cat.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0px;
